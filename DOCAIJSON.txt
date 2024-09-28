@@ -1,0 +1,1533 @@
+{
+  1:[
+    {
+      "text": "Branch Name",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+    
+    {
+      "text": "Branch Code",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+
+    {
+      "text": "Customer ID",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+    
+    {
+      "text": "Application Type",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "New",
+        "box": [],
+        "type": "value",
+        "linking": null
+      },
+      {
+        "text": "Update",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+
+    {
+      "text": "Account No.",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    }, 
+
+    {
+      "text": "CKYC No.",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+
+    {
+      "text": "Account Type",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "Normal",
+        "box": [],
+        "type": "value",
+        "linking": null
+      },
+      {
+        "text": "Small",
+        "box": [],
+        "type": "value",
+        "linking": null
+      },
+      {
+        "text": "Minor",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+
+    {
+      "text": "Staff",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+
+    {
+      "text": "PF NO.",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "T/F",
+        "box": [],
+        "type": "value",
+        "linking": null
+      },
+      {
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }]
+    },
+    ----------------------------------------------------------
+    A. Personal Details
+    ----------------------------------------------------------
+     
+    {
+      "text": "A.Personal Details",
+      "box": [],
+      "type": "key",
+      "linking": [
+        {
+        "text": "Name",
+        "box": [],
+        "type": "key",
+        "linking": [
+          {
+            "text":"JAAKPURI WEST 11-B AYUSH",
+            "box": [],
+            "type": "value",
+            "linking": [null]
+          }
+        ]
+        },
+        {
+        "text": "Maiden Name",
+        "box": [],
+        "type": "key",
+        "linking": 
+          [
+          {
+            "text":"JANA",
+            "box": [],
+            "type": "value",
+            "linking": [null]
+          }
+          ]
+        },
+        
+        {
+        "text": "Date of Birth*",
+        "box": [],
+        "type": "key",
+        "linking": [
+                    {
+                      "text":"",
+                      "box": [],
+                      "type": "value",
+                      "linking": [null]
+                    }
+                  ]
+          }, 
+        
+          {
+        "text": "Gender*",
+        "box": [],
+        "type": "key",
+        "linking":
+        [
+          {
+            "text":"Male",
+            "box": [],
+            "type": "key",
+            "linking": [
+              
+                          {
+                            "text":"T/F",
+                            "box": [],
+                            "type": "value",
+                            "linking": [null]
+                          }
+                        ]
+          },
+          {
+            "text":"Female",
+            "box": [],
+            "type": "key",
+            "linking": [       
+                          {
+                            "text":"T/F",
+                            "box": [],
+                            "type": "value",
+                            "linking": [null]
+                          }
+                        ]
+          },
+                {
+                  "text":"Third Gender",
+                  "box": [],
+                  "type": "value",
+                  "linking": [        
+                                {
+                                  "text":"T/F",
+                                  "box": [],
+                                  "type": "value",
+                                  "linking": [null]
+                                }
+                              ]
+                }
+        ]
+      },
+      {
+        "text": "Marital Status",
+        "box": [],
+        "type": "value",
+        "linking":
+        [
+          {
+        "text": "Married",
+        "box": [],
+        "type": "key",
+        "linking":
+            [
+              {
+              "text": "T/F",
+              "box": [],
+              "type": "value",
+              "linking": [null]
+              }
+            ]
+          },
+          {
+        "text": "Unmarried",
+        "box": [],
+        "type": "key",
+        "linking":
+            [
+              {
+              "text": "T/F",
+              "box": [],
+              "type": "value",
+              "linking": [null]
+              }
+            ]
+          },
+          {
+        "text": "Others",
+        "box": [],
+        "type": "key",
+        "linking":
+            [
+              {
+              "text": "T/F",
+              "box": [],
+              "type": "value",
+              "linking": [null]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "6.No of Dependencies",
+        "box": [],
+        "type": "key",
+        "linking":
+        [
+          {
+            "text": "",
+            "box": [],
+            "type": "value",
+            "linking":
+            [
+              
+            ]
+          }
+        ]
+      },
+      {
+        "text": "6.Name of*",
+        "box": [],
+        "type": "key",
+        "linking":
+        [
+          {
+            "text": "Father",
+            "box": [],
+            "type": "key",
+            "linking":
+            [
+              {
+                "text": "T/F",
+                "box": [],
+                "type": "value",
+                "linking":[null]
+              }
+            ]
+          },
+          {
+            "text": "Mother",
+            "box": [],
+            "type": "key",
+            "linking":
+            [
+              {
+                "text": "T/F",
+                "box": [],
+                "type": "value",
+                "linking":[null]
+              }
+            ]
+          },
+          {
+            "text": "Spouse*",
+            "box": [],
+            "type": "key",
+            "linking":
+            [
+              {
+                "text": "T/F",
+                "box": [],
+                "type": "value",
+                "linking":[null]
+              }
+            ]
+          },
+          {
+            "text": "",
+            "box": [],
+            "type": "value",
+            "linking":[null]
+          }
+        ]
+      },
+      ------------------------------------shrey
+      {
+        "text" : "Name of Guardian",
+        "box" : [],
+        "type" : "key",
+        "linking" :
+        [
+          {
+            "text" : "",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          },
+          {
+            "text" : "Relationship with Guardian",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text" : "Nationality",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "In-Indian",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Others",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Country Name",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text" : "Citizenship",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }
+        ]
+      },
+      { //Recheck 11th
+        "text" : "Occupation Type Service",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "State Govt.",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Central Govt.",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Public Sector Undertaking",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Defence",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Pvt. Sector",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Employee ID",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Place of Posting",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Business",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "Industrialist",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Trade Sect.",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Serv. Sect",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Migrant Labour",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Contractor",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Jeweller / Bullion Trader",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Pawn Shop",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Import/Export Customer",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Other Self Employed",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text" : "Others",
+            "box" : [],
+            "type" : "key",
+            "linking" :
+            [
+              {
+                "text" : "Medical Prof.",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Legal prof.",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "CA/ICWA/Taxation/Finance",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Eng./Architect/Tech. Consultant",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Retired",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Journalist",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Housewife",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Student",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Share and Stock Broker",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Oth. Professional",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Agriculture",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              },
+              {
+                "text" : "Political / Social Worker",
+                "box" : [],
+                "type" : "key",
+                "linking" : 
+                [
+                  {
+                    "text" : "T/F",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text" : "Not categorised-Please specify",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text" : "Orgnization's Name",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null] 
+          },
+          {
+            "text" : "Designation/Profession",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null] 
+              }
+            ] 
+          },
+          {
+            "text" : "Nature of Business",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null] 
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text" : "Annual Income* Rs.",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }
+        ]
+      },
+      {
+        "text" : "Net Worth (approx value) Rs.",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }
+        ]
+      },
+      {
+        "text" : "Source of funds",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "Salary",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Business Income",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Agriculture",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Investment",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Pension",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Others",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : 
+                [
+                  {
+                    "text" : "",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text" : "Religion",
+        "box" : [],
+        "type" : "key",
+        "linking" : 
+        [
+          {
+            "text" : "Hindu",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Muslim",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Christian",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Sikh",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : [null]
+              }
+            ]
+          },
+          {
+            "text" : "Others",
+            "box" : [],
+            "type" : "key",
+            "linking" : 
+            [
+              {
+                "text" : "T/F",
+                "box" : [],
+                "type" : "value",
+                "linking" : 
+                [
+                  {
+                    "text" : "",
+                    "box" : [],
+                    "type" : "value",
+                    "linking" : [null]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+
+
+
+      ------------------------------------shrey
+
+---------------------------------------------------------------------------
+      
+      {
+        "text" : "Category",
+        "box" : [],
+        "type" : "key",
+        "linking" : [{
+            "text" : "General",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : null
+            }]
+        },
+          {
+             "text" : "OBC",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : null
+            }]
+          },
+          {
+             "text" : "SC",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+          {
+             "text" : "ST",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          }
+        ]
+      }, 
+      {
+        "text" : "Person with disability",
+        "box" : [],
+        "type" : "key",
+        "linking" : [{
+          "text" : "Yes",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+        },
+        {
+          "text" : "No",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+          }]
+        },
+        {
+          "text" : "If yes,",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "Visually impaired",
+              "box" : [],
+              "type" : "key",
+              "linking" : [{
+                 "text" : "T/F",
+                  "box" : [],
+                  "type" : "value",
+                  "linking" : [null]
+              }]
+            },
+            {
+              "text" : "Differently abled",
+              "box" : [],
+              "type" : "key",
+              "linking" : [{
+                 "text" : "T/F",
+                  "box" : [],
+                  "type" : "value",
+                  "linking" : [null]
+              }]
+            }  
+          ]
+        }
+        ]
+      },
+      {
+        "text" : "Educational Qualification",
+        "box" : [],
+        "type" : "key",
+        "linking" : [
+          {
+            "text" : "Upto 9th Class passed",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+          {
+            "text" : "10th Class passed",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+          {
+            "text" : "Graduate(Gen.)",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+           {
+            "text" : "Post Graduate(Gen.)",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+          {
+            "text" : "Med. Graduate /Post Graduate",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+           {
+            "text" : "Eng. Graduate/Post Graduate",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+           {
+            "text" : "Law Graduate/Post Graduate",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+           {
+            "text" : "CA/CWA/MBA/CFA",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+           {
+            "text" : "Computer Degree/Diploma/MCA",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+           {
+            "text" : "Other Professional Degree/Diploma",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }]
+          },
+           {
+            "text" : "Illerate if yes: Identification Marks:",
+            "box" : [],
+            "type" : "key",
+            "linking" : [{
+              "text" : "T/F",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            },
+            {
+              "text" : "string",
+              "box" : [],
+              "type" : "value",
+              "linking" : [null]
+            }
+            ]
+          },
+        ]
+      }, 
+      {
+        "text" : "Please Tick the Application box",
+        "box" : [],
+        "type" : "key",
+        "linking" : [{
+          "text" : "Politically exposed Person",
+          "box" : [],
+          "type" : "key",
+          "linking" : [{
+            "text" : "T/F",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }]
+        },
+        { 
+          "text" : "Related to politically exposed Person",
+          "box" : [],
+          "type" : "key",
+          "linking" : [{
+            "text" : "T/F",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          },
+          { 
+          "text" : "None",
+          "box" : [],
+          "type" : "key",
+          "linking" : [{
+            "text" : "T/F",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }  
+        ]
+      }
+      {
+        "text" : "Country of tax Residence in India only and not in any other country or territory outside India",
+        "box" : [],
+        "type" : "key",
+        "linking" : [{
+          "text" : "Yes",
+          "box" : [],
+          "type" : "key",
+          "linking" : [{
+            "text" : "T/F",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }]
+        },
+        { 
+          "text" : "No",
+          "box" : [],
+          "type" : "key",
+          "linking" : [{
+            "text" : "T/F",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }]
+        }
+        ]
+      }
+        {
+        "text" : "PAN",
+        "box" : [],
+        "type" : "key",
+        "linking" : [{
+            "text" : "string",
+            "box" : [],
+            "type" : "value",
+            "linking" : [null]
+          }
+          ]
+        }
+      ],
+    },
+
+    ----------------------------------------------------------
+    B. Contact Details
+    ----------------------------------------------------------
+
+    {
+      "text": "Contact Details"
+      "box" : [],
+      "type": "key",
+      "linking":
+      [
+           {
+      "text": "Mobile No.",
+      "box": [],
+      "type": "key",
+      "linking": [
+        {
+        "text": "Pin",
+        "box": [],
+        "type": "value",
+        "linking": [null]
+      },
+      {
+        "text": "number",
+        "box": [],
+        "type": "value",
+        "linking": [null]
+      }
+      ]
+    },
+
+    {
+      "text": "Email ID",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": [null]
+      }]
+    }, 
+
+    {
+      "text": "STD Tel. (Off)",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": [null]
+      }]
+    }, 
+
+    {
+      "text": "Tel. (Res)",
+      "box": [],
+      "type": "key",
+      "linking": [{
+        "text": "string",
+        "box": [],
+        "type": "value",
+        "linking": null
+      }
+      ]
+    }
+      ]
+    } 
+  ]
+  
+}
